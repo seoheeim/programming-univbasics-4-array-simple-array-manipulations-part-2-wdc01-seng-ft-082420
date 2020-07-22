@@ -1,5 +1,5 @@
-def using_concat(my_fav_things)
-  my_fav_things.concat
+def using_concat(my_fav_things, more_favs)
+  my_fav_things.concat(more_favs)
 end 
 
 def using_insert(list_of_programming_languages)
