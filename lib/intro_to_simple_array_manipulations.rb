@@ -1,9 +1,9 @@
-def using_concat(my_fav_things, all_my_favs)
-  my_fav_things.concat(all_my_fav)
+def using_concat(my_fav_things)
+  my_fav_things.concat
 end 
 
-def using_insert(list_of_programming_languages, another_language)
-  list_of_programming_languages.insert(3, another_language)
+def using_insert(list_of_programming_languages)
+  list_of_programming_languages.insert(3)
 end
 
 def using_uniq(haircuts)
