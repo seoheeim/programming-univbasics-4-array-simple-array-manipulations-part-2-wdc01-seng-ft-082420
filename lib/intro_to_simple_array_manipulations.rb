@@ -20,5 +20,4 @@ end
 
 def using_delete_at(famous_robots, number)
   famous_robots.delete_at(number)
-
-
+end
